@@ -25,6 +25,8 @@ void main() {
     }
     if (abs(color.a - 243.0 / 255.0) > 0.5 / 255.0) {
         color *= vertexColor;
+    } else {
+        color.w = 1.0;
     }
     color *= shadow * ColorModulator;
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
