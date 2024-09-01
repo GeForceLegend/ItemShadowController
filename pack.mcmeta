@@ -1,0 +1,15 @@
+{
+    "pack":{
+        "pack_format":15,
+        "supported_formats":[15,100],
+        "description":"Set alpha to 243 to ignore shadow on item model"
+    },
+    "overlays":{
+        "entries":[
+            {
+                "directory":"24w34a",
+                "formats":[36,100]
+            }
+        ]
+    }
+}
